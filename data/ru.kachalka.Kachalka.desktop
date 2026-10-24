@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Качалка
+Name[ru]=Качалка
+GenericName=Video downloader
+GenericName[ru]=Загрузчик видео
+Comment=Download videos from YouTube, X, Instagram, TikTok, Reddit and other sites
+Comment[ru]=Скачивание видео из соцсетей и с других сайтов
+Exec=kachalka
+Icon=ru.kachalka.Kachalka
+Terminal=false
+Categories=AudioVideo;Video;Network;GTK;
+Keywords=youtube;video;download;yt-dlp;скачать;видео;загрузчик;
+StartupNotify=true
+StartupWMClass=ru.kachalka.Kachalka
