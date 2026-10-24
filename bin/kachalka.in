@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+# Запуск через runpy: у приложения нет публичных Python-модулей, и статический
+# анализатор зависимостей (python3.req) не должен видеть здесь импорт kachalka.*
+import runpy
+import sys
+
+sys.path.insert(0, "@DATADIR@")
+runpy.run_module("kachalka", run_name="__main__", alter_sys=True)
